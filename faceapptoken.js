@@ -1,12 +1,3 @@
-/*
- FaceApp解锁vip
- 
-^https:\/\/api\.faceapp\.io(.*)\/api\/v.*\/auth\/user\/credentials url script-response-body https://raw.githubusercontent.com/ackakakaka/QuantumultX/master/faceapp.js
-
-[MITM]
-hostname = api.faceapp.io
-*/
-
 var obj = $response.body; 
 obj = {
  "user": null,
