@@ -1,4 +1,3 @@
-
 var body = JSON.parse($response.body);
 var obj = {
 
@@ -11,4 +10,4 @@ var obj = {
   "code" : 0
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({ body: JSON.stringify(obj) }
