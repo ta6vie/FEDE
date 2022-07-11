@@ -10,7 +10,7 @@ obj = {
     "premiumPlatinumHalfYearly": 3,
     "premiumVipYearly": 3
   },
-  "isTrialPeriod": true,
+  "isTrialPeriod": false,
   "endTime": 4081109070000,
   "platform": 2,
   "vipType": "premium_platinum_yearly",
