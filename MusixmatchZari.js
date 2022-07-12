@@ -3,7 +3,8 @@ let usr=obj.message.body;
 usr.app_config.trial=false;
 usr.app_config.active_products=[
           {
-            "product_id" : "mxm.com.musixmatch.premium.oneyear",
+            "product_id" : "com.musixmatch.offers.removeads.autorenewable.oneyear.1506772022",
+           ",
             "start_date" : "2022-05-27T16:27:38.000Z",
             "creation_date" : "2022-05-27T16:27:38.000Z",
             "credits" : 10,
