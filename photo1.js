@@ -20,7 +20,7 @@ obj= {
         "billing_issues_detected_at" : null,
         "period_type" : "normal",
         "expires_date" : "2050-07-14T03:27:56Z",
-        "grace_period_expires_date" : null,
+        "grace_period_expires_date" : "2050-07-14 23:41:42 Etc/GMT",
         "unsubscribe_detected_at" : null,
         "original_purchase_date" : "2022-05-21T23:58:50Z",
         "purchase_date" : "2022-07-14T02:27:56Z",
