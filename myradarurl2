@@ -1,0 +1,8 @@
+var obj = JSON.parse($response.body);
+
+obj = 
+
+{"install_id":"8f31dcc7c062475e980cdc5595e3c6b5","status":"verified","receipt_id":"ABBAF4AA204C44069354B6D69044C192","error":null,"subscriptions":{"active":[{"product_id":"com.fboweb.MyRadar.Subscription.PremiumFeatures.Monthly","transaction_id":"300001169605849","purchase_date":"2022-07-18T06:14:47+00:00","expiration_date":"2099-07-21T06:14:47+00:00","expiration_intent":null,"auto_renew_product_id":null,"auto_renew_status":"1","is_in_billing_retry_period":null,"is_eligible_for_trial":false}],"inactive":[]}}
+
+$done({body: JSON.stringify(obj)});
+
