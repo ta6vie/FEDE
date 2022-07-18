@@ -1,15 +1,56 @@
-var body = JSON.parse($response.body);
-var obj = {
+var obj = JSON.parse($response.body);
+
+obj = 
 
 {
   "message" : "",
   "data" : {
-    "encryptKey" : "AxqQpXY+UP/j/fpSTsBsSSByxfzi4Q5qvDYvMiJ1zxeQ6SOyZz6vLOIQUQ43lN0z+aYoIjDGc/anJrVcAzDXhckY8tpj6I0mI69S2e+/Erb2CtOm4pMP9wGsehhEXtSlV/iZiJcVuowI6BdFUXH6hclFPa9CGWkmZe8ou5jBv4Y=",
-    "encryptData" : "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",
-    "subStatus" : 1
+    "activityInfos" : [
+      {
+        "description" : "",
+        "id" : 109,
+        "productInfos" : [
+          {
+            "activityProduct" : {
+
+            },
+            "productType" : "year",
+            "defaultProduct" : {
+              "promotionalOfferId" : "10Dollar6Months",
+              "productId" : "com.magicv.AirBrush.sub.allAccess.1year.newus.fullPrice"
+            },
+            "isSubscription" : true
+          },
+          {
+            "activityProduct" : {
+
+            },
+            "productType" : "month",
+            "defaultProduct" : {
+              "promotionalOfferId" : "HalfOff6Months",
+              "productId" : "com.magicv.AirBrush.sub.allAccess.1month.newus.fullPrice"
+            },
+            "isSubscription" : true
+          }
+        ],
+        "abTesting" : 0,
+        "activityType" : 5,
+        "materialInfos" : [
+
+        ],
+        "periodicFreeFeatureInfos" : [
+
+        ],
+        "title" : "",
+        "activityName" : "Promotional Offer",
+        "endTime" : 1775200080,
+        "response" : {
+
+        },
+        "startTime" : 1541056080
+      }
+    ]
   },
   "code" : 0
 }
- 
-
-$done({ body: JSON.stringify(obj) }
+$done({body: JSON.stringify(obj)});
