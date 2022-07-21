@@ -3,8 +3,8 @@ var obj = JSON.parse($response.body);
 obj = 
 
 {
-  "request_date": "2022-07-20T22:55:28Z",
-  "request_date_ms": 1658357728936,
+  "request_date": "2022-07-21T02:44:28Z",
+  "request_date_ms": 1658371468335,
   "subscriber": {
     "entitlements": {},
     "first_seen": "2022-04-14T21:54:46Z",
@@ -18,24 +18,23 @@ obj =
     "subscriptions": {
       "com.neocortext.doublicatapp.subscription.bro.weekly": {
         "billing_issues_detected_at": null,
-        "expires_date": null,
+        "expires_date": "2023-07-20T20:33:52Z",
         "grace_period_expires_date": null,
         "is_sandbox": false,
         "original_purchase_date": "2022-07-13T20:33:55Z",
         "ownership_type": "PURCHASED",
-        "period_type": "normal",
+        "period_type": "trial",
         "purchase_date": "2022-07-13T20:33:52Z",
-        "store": "app_store",
-        "unsubscribe_detected_at": "2022-07-17T07:54:50Z"
+        "store": "app_store"
       },
       "com.neocortext.doublicatapp.subscription.promos.annual.50off": {
         "billing_issues_detected_at": null,
-        "expires_date": null,
+        "expires_date": "2022-07-13T06:16:18Z",
         "grace_period_expires_date": null,
         "is_sandbox": false,
         "original_purchase_date": "2022-07-10T06:16:19Z",
         "ownership_type": "PURCHASED",
-        "period_type": "normal",
+        "period_type": "trial",
         "purchase_date": "2022-07-10T06:16:18Z",
         "store": "app_store",
         "unsubscribe_detected_at": "2022-07-10T06:31:59Z"
@@ -43,4 +42,5 @@ obj =
     }
   }
 }
+
 $done({body: JSON.stringify(obj)});
