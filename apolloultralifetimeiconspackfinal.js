@@ -17,7 +17,7 @@ obj=
     },
     {
       "name" : "spca",
-      "status" : "PAID"
+      "status" : "PURCHASED"
     }
   ]
 }
