@@ -13,11 +13,11 @@ obj=
     },
     {
       "name" : "community_icons",
-      "status" : "YES"
+      "status" : "PURCHASED"
     },
     {
       "name" : "spca",
-      "status" : "YES"
+      "status" : "PAID"
     }
   ]
 }
