@@ -15,5 +15,4 @@ obj =
   },
   "is_restore" : true
 }
-
 $done({body: JSON.stringify(obj)});
