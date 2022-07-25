@@ -7,7 +7,7 @@ obj =
   "app_user_id" : "oRyKPXLesZPSBcATyKCvjwshpcV2",
   "observer_mode" : false,
   "attributes" : {
-    "$attConsentStatus" : {
+    "subscription_type" : {
       "updated_at_ms" : 1658738411167,
       "value" : "pro"
     }
