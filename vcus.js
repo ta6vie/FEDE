@@ -1,58 +1,15 @@
-var obj = $response.body; 
-obj = {
- 
-  "code" : 0,
-  "data" : [
-    {
-      "device_level" : 7,
-      "trigger_type" : 1,
-      "created_at" : 1643192184,
-      "rid" : "VC_POP_00000034",
-      "weight" : 1,
-      "effective_time" : {
-        "status" : 2,
-        "info" : [
+var obj = JSON.parse($response.body);
 
-        ],
-        "timezone" : {
-          "id" : "",
-          "std_offset" : 0
-        }
-      },
-      "trigger" : {
-        "cycle" : 1,
-        "frequency" : 1
-      },
-      "number" : 3,
-      "popup_config" : {
-        "text_two" : "",
-        "deeplink" : "",
-        "title" : "",
-        "confirm_button" : {
-          "status" : 1,
-          "text" : "Try Now",
-          "deeplink" : "vcus://music"
-        },
-        "text" : "Stunning Slo-Mo Effects ⛷",
-        "cancel_button" : {
-          "status" : 2,
-          "text" : ""
-        },
-        "media" : {
-          "type" : "video",
-          "url" : "https://gcs-vcus.meitu.com/2f10816e43a0cba378875bf64e8c2072.mp4"
-        },
-        "close_angle_mark" : 1
-      },
-      "updated_at" : 1653018014,
-      "popup_type" : 2,
-      "sub_status" : 1,
-      "ended_at" : 0,
-      "user_status" : 2
-    }
-  ],
-  "message" : "",
-  "update" : "a9cdc80cd2c4aa84fea1c5507b7edc41"
+obj = 
+
+{
+"message" : "",
+  "data" : {
+    "encryptKey" : "J6eGu3ZYhjfWXGRyELRP2gGADbAbtV9j13eLpiCBtvtYJc/TRP4BscDIkpAgaIr0QQSmC8zR3yiSgQmXRLCSSLCnRIotsVLgfjdvpNETE05jCzBntLA6s93E+MoGkMjpY31GGT/pzu4/aVN0bUyB2EoGCfGYVXztRIvClEVaM+o=",
+    "encryptData" : "QIDK8C5RM1HzR2dYkMx1Y+0AloAxeMe0MnRgSxjVnTZuY4zfy3O2uBVynTG+u4sqOJgJT/WAemIji90/xveX1+t1AlJSJeooa83tySHEKwVgcZRBSJ0RE43dhf36+ZtMVhjrp7IayG3BrXHc8iJnTvJ+fUQ/Y5i2VDnE4OnaRdWW+BKcyFc5FE4/EvlGaX0UmieAyXlDoXMWv3pGQFR6eGKt0GJEoGwlTRoOA5oZGo99DLmJjWSaM77DJzEdHdWU+62hhy8wUPrb/6CdPcY7imfNDb+GnlHy9tqrVjvHaqtoiA1rskl2MSwbv+9Gxk1GD5Jj41sD8Zbt56Dzk2UZx+zT1e4fAu1QAMMyvGGUhQEUy59or52y8v0rouPGW+i9kkvMNluxTF2GBnSvR4c/Z7VGtMdro2W4/NzvahRooZY8+FcbjPoDJIkt3w/1h7tnG6ThoB5JxNV0ymVy03UfSUJMLLJvNaZ5d4wtZIrgygGm1MW9//xMJF08qjJjcCk2/pw+uqQKiIBv6xcmQO7Orj6trsFO/NgVoBt8rHlujymtGqFdrcazEOJedBy+29eHT12F1Lb+Tvh/ORNNnytgzAsO9V5cW+/RpoO4W1qlCF68c1+Ys7CCsZg7TbURuX1GQYBU75Gz9XCCxdpe8lYTvwu4/0xmF1ZS4WEsp99Nqa5STBWDGp8ojiVZBJwHrWzI07uWmxS5qKXTs92+hDO3D5NFxEbeoQ+MH4zLGmipAVAMbmjOxdKS1hiwuENSzrh5n6MjTgpoDpJ0q3ZRAWGe7fEIsvePioh2brrpsT2/ijL58tE7n6DjSphdNneC7QDIlJfAt8AwHMfkYJFQJakJrffFGntaaDAyZlF73yI9ofkJWT8CUGsL/apgQHK7CesU+FSEqSyWWb+vvnAZ/IIxPsthiZaAFnT+pcJPWWrebztFOfESr6E6oeH5a3tBMPlyZ+eyDzBN9H0yH2ugUCU7sVbKawSSLZXwO0cAIx3x+oq8FXmxU2ER8l/rziHwXDIF5BYmO419/Ed9Wk10II+0vb4Pty/OwkcLvUB+cgkE1FBIXELZK+DcbZWhLdq0X8oHh7tNIFgVDnj5AIJY+pONdZmz6LFj0Y0qNvdbin2GS+LiESEiWcgyGENvPk0t+b1gg6+JNeHWdAtFI+ZJm7UNoM9wph8hvdYILXZ7vIm/brVVHi1mCRyeNXdwSls/Efjh0h9GqT1i5geAhXZZTuUJZ0PjlVrunde1z+HFxNLSSz36ZwG+qTVQT3DSqGPkUAhySBog/loXfkscckl7uy5LsUvKxB1UmYrdYDT7KKsDLq88tGUhTSVFnlXq6lhFxKRZ9UMFAONzNH7v44c6W+5pwx6a8okoIWz26fC6efP1FVY9sSCW/wTGVMY5Hp0mcqM3k2P9iqSOK9UAnAm2AjGfYyCCz4NzdFl1yyX8CDE/hlRseCjDMfqabnfJ+omfOV9LbNK0LrO4n6MgSwTyPeNjPAKzxHmJ/UZ25DqsqwtsZnYY2Ya/iZdW/kSIHBghe14gALMsPxHIJbh4tdB6dC4iHkxWQc/QdV5t/kW2XpALbWYSSQAYI4gTljlTIHQHPtdZvoodxiiwWhMVhMEziJ+MCeAgemjfQhc5ar8XZQqL4AEr0n4nIe0+cirzbiwhe7mA",
+    "subStatus" : 1
+  },
+  "code" : 0
 }
 
-$done({body});
+$done({body: JSON.stringify(obj)});
