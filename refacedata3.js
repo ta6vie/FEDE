@@ -1,3 +1,7 @@
+var obj = JSON.parse($response.body);
+
+obj =  
+
 {
   "events" : [
     {
@@ -55,3 +59,4 @@
   "sdk_version" : "4.1.0",
   "api_key" : "9c47a52d-b698-439b-b1a8-882ad284230a"
 }
+$done({body: JSON.stringify(obj)});
