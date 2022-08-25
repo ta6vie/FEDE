@@ -9,19 +9,19 @@ obj=
       {
         "id" : "premium.1month",
         "type" : 0,
-        "store_id" : "com.hassantaleb.SwiftCompiler.premium.1month",
+        "store_id" : "com.hassantaleb.SwiftTutorial.premium.1month",
         "duration" : 1
       },
       {
         "id" : "premium.1year",
         "type" : 1,
-        "store_id" : "com.hassantaleb.SwiftCompiler.premium.1year",
+        "store_id" : "com.hassantaleb.SwiftTutorial.premium.1year",
         "duration" : 4
       },
       {
         "id" : "premium.forever",
         "type" : 2,
-        "store_id" : "com.hassantaleb.SwiftCompiler.premium.forever",
+        "store_id" : "com.hassantaleb.SwiftTutorial.premium.forever",
         "duration" : null
       }
     ],
@@ -43,7 +43,7 @@ obj=
       {
         "id" : "premium.forever",
         "type" : 2,
-        "store_id" : "com.hassantaleb.SwiftCompiler.premium.forever",
+        "store_id" : "com.hassantaleb.SwiftTutorial.premium.forever",
         "duration" : null
       }
     ],
