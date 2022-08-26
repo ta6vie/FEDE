@@ -41,9 +41,10 @@ obj=
     },
     "user_products" : [
       {
-        "id" : "premium.forever",
+        "id" : "App Dev UIKit",
+      "store_id": "App_Dev_UIKit",
         "type" : 2,
-        "store_id" : "com.hassantaleb.SwiftTutorial.premium.forever",
+        "store_id" : "com.hassantaleb.SwiftTutorial.appDevUIKit",
         "duration" : null
       }
     ],
@@ -52,9 +53,9 @@ obj=
       {
         "active" : 1,
         "current_period_type" : "oneTime",
-        "id" : "premium",
+        "id" : "app_dev_UIKit",
         "renewable_state" : 1,
-        "associated_product" : "premium.forever"
+        "associated_product" : "app_dev_UIKit"
       }
     ],
     "apple_extra" : {
